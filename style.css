@@ -50,7 +50,6 @@ header {
     padding: 0px 10px;
     line-height: 80px;
     margin: 0 5px;
-
 }
 
 .nav__links li a {
@@ -59,16 +58,6 @@ header {
 .nav__links li a:hover {
     color: #839788;
 }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-  .sticky + .bio {
-    padding-top: 60px;
-  } */ */
 
 
 button {
@@ -115,8 +104,8 @@ button {
 
 } 
 
- #good-space-project {
-
+ #good-space {
+    width: 100%;
 }
 
 .footer {
@@ -124,8 +113,16 @@ button {
     text-align: center;
 }
 
-.gs-photos img{
-display: inline-block;
+img{
+/* display: inline-block; */
+transition:transform 0.25s ease;
+height:"150"; 
+width:"300";
+}
+
+img:hover {
+    -webkit-transform:scale(5.0);
+    transform:scale(5.0);
 }
 
 /* p {
