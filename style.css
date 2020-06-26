@@ -1,10 +1,10 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #F5EDE0;
     list-style: none;
-}
+} */
 body {
     font-family: Belleza, sans-serif;
     font-size: 16px;
@@ -100,8 +100,7 @@ button {
     margin: auto;
     position: relative;
     top: 180px;
-    width: 80%;
-
+    width: 70%;
 } 
 
  #good-space {
@@ -113,17 +112,17 @@ button {
     text-align: center;
 }
 
-img{
+gs-photos img{
 /* display: inline-block; */
 transition:transform 0.25s ease;
-height:"150"; 
-width:"300";
+height:"250";
+/* width:"300";
 }
 
-img:hover {
+/* img:hover {
     -webkit-transform:scale(5.0);
     transform:scale(5.0);
-}
+} */
 
 /* p {
     min-width: 200px;
