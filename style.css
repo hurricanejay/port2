@@ -34,7 +34,7 @@ header {
 
 .logo{
     cursor: pointer;
-    line-height: 80px;
+    /* line-height: 80px; */
     padding: 0 100px;
     font-weight: bold;
 }
@@ -42,13 +42,13 @@ header {
 .nav__links {
     list-style: none;
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .nav__links li {
     display: inline-block;
     padding: 0px 10px;
-    line-height: 80px;
+    /* line-height: 80px; */
     margin: 0 5px;
 }
 
@@ -112,12 +112,22 @@ button {
     text-align: center;
 }
 
-gs-photos img{
-/* display: inline-block; */
-transition:transform 0.25s ease;
-height:"250";
-/* width:"300";
-}
+img {
+    display: inline-block;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+  }
+  
+  /* Add a hover effect (blue shadow) */
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    -webkit-transform:scale(5.0);
+    transform:scale(5.0);
+  }
+
+
 
 /* img:hover {
     -webkit-transform:scale(5.0);
