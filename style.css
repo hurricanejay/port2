@@ -89,6 +89,12 @@ button {
     z-index: 1;
 } 
 
+/* .bio img {
+    position: relative;
+    width: 100px;
+    justify-self: center;
+} */
+
  .projects{
     margin: auto;
     justify-content: center;
@@ -106,12 +112,17 @@ button {
     justify-content: space-evenly;
 }
 
-.footer {
-    background-color: #fff;
-    text-align: center;
-}
 
-img {
+
+.gs-photos img {
+    display: inline-block;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 100px; /* Set a small width */
+  }
+
+  .plantify-photos img {
     display: inline-block;
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
@@ -120,7 +131,13 @@ img {
   }
   
   /* Add a hover effect (blue shadow) */
-  img:hover {
+  .gs-photos img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    -webkit-transform:scale(5.0);
+    transform:scale(5.0);
+  }
+
+  .plantify-photos img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     -webkit-transform:scale(5.0);
     transform:scale(5.0);
@@ -132,12 +149,13 @@ img {
     transform:scale(5.0);
 } */
 
-/* p {
-    min-width: 200px;
-    max-width: 800px;
-} */
 
 .tech-skills  {
     margin: auto;
     list-style: none;
+}
+
+.footer {
+    background-color: #fff;
+    text-align: center;
 }
