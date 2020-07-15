@@ -1,11 +1,7 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #F5EDE0;
-    list-style: none;
-} */
+
 body {
+    list-style: none;
+    background-color: #F5EDE0;
     font-family: Belleza, sans-serif;
     font-size: 16px;
     margin: 0 auto;
@@ -56,7 +52,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 .nav__links li a:hover {
-    color: #839788;
+    color: white;
 }
 
 
@@ -78,19 +74,18 @@ button {
     list-style: none;
 }
 
-.bio p {
+.bio{
     display: flex;
-    top: 80px;
-    width: 520px;
-    height: 150px;
-    justify-content: center;
-    /* margin:  30px; */
+    height: 200px;
+    justify-content: right;
+    margin:  30px 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
     text-align: right;
-    font-size: 23px;
-    position: absolute;
-    /* right: 0; */
-    top: 80px;
-    padding: 10px;
+    font-size: 33px;
+    position: relative;
+    top: 80px; 
     z-index: 1;
 } 
 
@@ -108,6 +103,7 @@ button {
 
 .gs-photos, .plantify-photos {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .footer {
@@ -140,3 +136,8 @@ img {
     min-width: 200px;
     max-width: 800px;
 } */
+
+.tech-skills  {
+    margin: auto;
+    list-style: none;
+}
