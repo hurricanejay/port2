@@ -83,14 +83,12 @@ button {
     top: 80px;
     width: 520px;
     height: 150px;
-    /* display: block; */
-
-    /* justify-content: flex-end; */
+    justify-content: center;
     /* margin:  30px; */
     text-align: right;
     font-size: 23px;
     position: absolute;
-    right: 0;
+    /* right: 0; */
     top: 80px;
     padding: 10px;
     z-index: 1;
@@ -98,6 +96,7 @@ button {
 
  .projects{
     margin: auto;
+    justify-content: center;
     position: relative;
     top: 180px;
     width: 70%;
@@ -105,6 +104,10 @@ button {
 
  #good-space {
     width: 100%;
+}
+
+.gs-photos, .plantify-photos {
+    display: flex;
 }
 
 .footer {
@@ -117,7 +120,7 @@ img {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 5px; /* Some padding */
-    width: 150px; /* Set a small width */
+    width: 100px; /* Set a small width */
   }
   
   /* Add a hover effect (blue shadow) */
@@ -126,7 +129,6 @@ img {
     -webkit-transform:scale(5.0);
     transform:scale(5.0);
   }
-
 
 
 /* img:hover {
