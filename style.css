@@ -85,7 +85,7 @@ button {
     text-align: right;
     font-size: 33px;
     position: relative;
-    top: 80px; 
+    top: 70px; 
     z-index: 1;
 } 
 
@@ -96,6 +96,7 @@ button {
 } */
 
  .projects{
+    /* animation-timing-function: ease-out; */
     margin: auto;
     justify-content: center;
     position: relative;
@@ -143,6 +144,16 @@ button {
     transform:scale(5.0);
   }
 
+  .video {
+      position: relative;
+      animation-name: slide;
+      animation-duration: 3s;
+  }
+
+  @keyframes slide {
+      from { transform: translateX(0)}
+    to {transform: translateX(700px)}  
+}
 
 /* img:hover {
     -webkit-transform:scale(5.0);
@@ -150,10 +161,29 @@ button {
 } */
 
 
-.tech-skills  {
-    margin: auto;
-    list-style: none;
-}
+/* #ball {
+    width: 70px;
+    height: 70px;
+    margin: 50px auto;
+    position: fixed;
+    left: 20%;
+    border-radius: 50%;
+
+    background: linear-gradient(
+      35deg,
+      #ccffff,
+      #ffcccc
+    );
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+
+  @keyframes fade {
+    50% {
+      left: 60%;
+  opacity: 0.1;
+    }
+  } */
 
 .footer {
     background-color: #fff;
