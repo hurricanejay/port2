@@ -148,11 +148,12 @@ button {
       position: relative;
       animation-name: slide;
       animation-duration: 3s;
+      animation-fill-mode: forwards;
   }
 
   @keyframes slide {
       from { transform: translateX(0)}
-    to {transform: translateX(700px)}  
+    to {transform: translateX(500px)}  
 }
 
 /* img:hover {
