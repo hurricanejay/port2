@@ -182,8 +182,18 @@ button {
   opacity: 0.1;
     }
   } */
+.contact {
+margin: auto;
+width: 50%;
+}
+
+  #icons {
+      display:flex;
+      justify-content: space-between;
+  }
 
 .footer {
     background-color: #fff;
     text-align: center;
 }
+
