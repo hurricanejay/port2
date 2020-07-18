@@ -3,13 +3,13 @@ body {
     list-style: none;
     background-color: #F5EDE0;
     font-family: Belleza, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0 auto;
 }
 
 a, button{
     font-family: Roboto, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     color: #667A6B; 
     text-transform: uppercase;
     text-decoration: none;
@@ -19,6 +19,7 @@ a, button{
 header {
     display: flex;
     justify-content: space-between;
+    background-color: #F5EDE0;
     align-items: center;
     padding: 15px;
     position: fixed;
@@ -44,7 +45,6 @@ header {
 .nav__links li {
     display: inline-block;
     padding: 0px 10px;
-    /* line-height: 80px; */
     margin: 0 5px;
 }
 
@@ -76,24 +76,21 @@ button {
 
 .bio{
     display: flex;
-    height: 200px;
-    justify-content: right;
-    margin:  30px 10px;
-    padding: 15px;
+    margin:  40px 10px;
+    padding: 35px 20px;
     background-color: black;
     color: white;
-    text-align: right;
-    font-size: 33px;
     position: relative;
     top: 70px; 
-    z-index: 1;
 } 
 
-/* .bio img {
+.bio p {
+    display: flex;
     position: relative;
-    width: 100px;
-    justify-self: center;
-} */
+    font-size: 33px;
+    text-align: right;
+    justify-content: right;
+}
 
  .projects{
     /* animation-timing-function: ease-out; */
@@ -102,6 +99,7 @@ button {
     position: relative;
     top: 180px;
     width: 70%;
+    text-align: justify;
 } 
 
  #good-space {
@@ -130,8 +128,7 @@ button {
     padding: 5px; /* Some padding */
     width: 100px; /* Set a small width */
   }
-  
-  /* Add a hover effect (blue shadow) */
+
   .gs-photos img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
     -webkit-transform:scale(5.0);
@@ -144,17 +141,17 @@ button {
     transform:scale(5.0);
   }
 
-  .video {
+  /* .video {
       position: relative;
       animation-name: slide;
-      animation-duration: 3s;
+      animation-duration: 3.4s;
       animation-fill-mode: forwards;
   }
 
   @keyframes slide {
       from { transform: translateX(0)}
     to {transform: translateX(500px)}  
-}
+} */
 
 /* img:hover {
     -webkit-transform:scale(5.0);
