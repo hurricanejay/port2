@@ -5,6 +5,7 @@ body {
     font-family: Belleza, sans-serif;
     font-size: 20px;
     margin: 0 auto;
+
 }
 
 a, button{
@@ -56,7 +57,7 @@ header {
 }
 
 
-button {
+/* button {
     padding: 9xp 25px;
     background-color: #222222;
     border: none;
@@ -67,7 +68,7 @@ button {
 
  button:hover {
     background-color: #cccccc;
-} */
+} */ */
 /* end of button */
 
 .tech-skills li {
@@ -90,10 +91,10 @@ button {
     font-size: 33px;
     text-align: right;
     justify-content: right;
+
 }
 
  .projects{
-    /* animation-timing-function: ease-out; */
     margin: auto;
     justify-content: center;
     position: relative;
@@ -118,7 +119,8 @@ button {
     border: 1px solid #ddd; /* Gray border */
     border-radius: 4px;  /* Rounded border */
     padding: 5px; /* Some padding */
-    width: 100px; /* Set a small width */
+    max-width: 100px; /* Set a small width */
+    height: auto;
   }
 
   .plantify-photos img {
@@ -141,7 +143,7 @@ button {
     transform:scale(5.0);
   }
 
-  /* .video {
+  .video {
       position: relative;
       animation-name: slide;
       animation-duration: 3.4s;
@@ -151,42 +153,26 @@ button {
   @keyframes slide {
       from { transform: translateX(0)}
     to {transform: translateX(500px)}  
-} */
+}
 
 /* img:hover {
     -webkit-transform:scale(5.0);
     transform:scale(5.0);
 } */
 
-
-/* #ball {
-    width: 70px;
-    height: 70px;
-    margin: 50px auto;
-    position: fixed;
-    left: 20%;
-    border-radius: 50%;
-
-    background: linear-gradient(
-      35deg,
-      #ccffff,
-      #ffcccc
-    );
-    animation-name: fade;
-    animation-duration: 3s;
-  }
-
-  @keyframes fade {
-    50% {
-      left: 60%;
-  opacity: 0.1;
-    }
-  } */
 .contact {
+
 margin: auto;
-width: 50%;
-justify-content: space-between;
+padding: 10px;
+width: 30%;
+/* border: solid 1px; */
+text-align: center;
 cursor:pointer;
+}
+
+#icons {
+    display: flex;
+    justify-content: space-between;
 }
 
 .fa-github-square:hover{
