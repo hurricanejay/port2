@@ -1,13 +1,21 @@
 
+html {
+    font-size: 10px;
+}
+
 body {
     list-style: none;
     background-color: #F5EDE0;
     font-family: Belleza, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;;
     margin: 0 auto;
 
 }
 
+#main {
+    padding: 15px;
+    margin: 30px 8px
+}
 a, button{
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -82,7 +90,6 @@ header {
     background-color: black;
     color: white;
     position: relative;
-    top: 70px; 
 } 
 
 .bio p {
@@ -101,7 +108,25 @@ header {
     top: 180px;
     width: 70%;
     text-align: justify;
+    /* animation-name: moveup;
+    animation-duration: 2.4s;
+    animation-fill-mode: forwards; */
 } 
+
+/* @keyframes moveup{
+    from {transform: translateY(0)}
+    to {transform: translateY(-100px)}
+} */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fadein
+
+
+
 
  #good-space {
     width: 100%;
@@ -109,6 +134,7 @@ header {
 
 .gs-photos, .plantify-photos {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -143,7 +169,7 @@ header {
     transform:scale(5.0);
   }
 
-  .video {
+  /* .video {
       position: relative;
       animation-name: slide;
       animation-duration: 3.4s;
@@ -153,12 +179,9 @@ header {
   @keyframes slide {
       from { transform: translateX(0)}
     to {transform: translateX(500px)}  
-}
-
-/* img:hover {
-    -webkit-transform:scale(5.0);
-    transform:scale(5.0);
 } */
+
+
 
 .contact {
 
@@ -196,6 +219,7 @@ cursor:pointer;
 
 
 .footer {
-    background-color: #fff;
+    /* background-color: #fff; */
+    padding: 20px;
     text-align: center;
 }
