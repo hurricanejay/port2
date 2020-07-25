@@ -14,7 +14,7 @@ body {
 
 #main {
     padding: 15px;
-    margin: 30px 8px
+    margin: 30px 8px;
 }
 a, button{
     font-family: Roboto, sans-serif;
@@ -23,6 +23,18 @@ a, button{
     text-transform: uppercase;
     text-decoration: none;
 }
+
+@media(max-width: 450){
+    h1{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
 
 
 header {
