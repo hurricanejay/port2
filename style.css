@@ -3,7 +3,11 @@ html {
     font-size: 10px;
 }
 
-* {
+
+
+  *{
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
   }
 
@@ -69,14 +73,14 @@ header {
 }
 
 .nav__links {
-    list-style: none;
-    float: right;
-    margin-right: 40px;
+    display: flex;
+    /* float: right; */
+    justify-content: space-between;
+    /* margin-right: 40px; */
     /* width: 35vw; */
 }
 
 .nav__links li {
-    display: inline-block;
     padding: 0px 10px;
     margin: 0 5px;
 }
@@ -94,6 +98,10 @@ header {
   }
 }
 
+h2{
+  margin-top: 30px;
+}
+
 
 /* button {
     padding: 9xp 25px;
@@ -109,18 +117,9 @@ header {
 } */ */
 /* end of button */
 
-.tech-skills li {
-    list-style: none;
-}
 
-#bio{
-    display: flex;
-    margin:  20px 5px;
-    padding: 25px 10px;
-    background-color: black;
-    color: white;
-    position: relative;
-} 
+
+
 
 .logo{
   width: 60vw;
@@ -150,7 +149,17 @@ header {
   }
 }
 
-.bio p {
+#bio{
+
+  display: flex;
+  margin:  20px 5px;
+  padding: 25px 10px;
+  background-color: black;
+  color: white;
+  position: relative;
+} 
+
+#bio > p {
     display: flex;
     position: relative;
     font-size: 33px;
@@ -280,4 +289,13 @@ cursor:pointer;
     /* background-color: #fff; */
     padding: 20px;
     text-align: center;
+}
+
+@media(max-width: 800px){
+  .bio{
+    width: 300px;
+  }
+  .projects{
+    width: 300px;
+  }
 }
