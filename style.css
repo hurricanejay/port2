@@ -69,6 +69,7 @@ header {
     list-style: none;
     float: right;
     margin-right: 40px;
+    /* width: 35vw; */
 }
 
 .nav__links li {
@@ -82,6 +83,12 @@ header {
 }
 .nav__links li a:hover {
     color: white;
+}
+
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
 }
 
 
@@ -111,6 +118,34 @@ header {
     color: white;
     position: relative;
 } 
+
+.logo{
+  width: 60vw;
+}
+@media(max-width: 650px){
+  .logo{
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+  }
+}
+
+.logo > img{
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media(max-width: 650px){
+  .logo > img{
+    margin: 0 auto;
+  }
+}
 
 .bio p {
     display: flex;
