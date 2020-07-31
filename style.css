@@ -44,6 +44,9 @@ a, button{
     }
   }
 
+  li{
+    list-style: none;
+  }
 
 header {
     display: flex;
@@ -110,7 +113,7 @@ header {
     list-style: none;
 }
 
-.bio{
+#bio{
     display: flex;
     margin:  20px 5px;
     padding: 25px 10px;
@@ -157,7 +160,7 @@ header {
 }
 
  .projects{
-    margin: auto;
+    margin: 0 auto ;
     justify-content: center;
     position: relative;
     top: 180px;
